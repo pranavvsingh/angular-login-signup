@@ -1,0 +1,45 @@
+{
+  "name": "check-network",
+  "version": "6.1.0",
+  "description": "Login and sigup with db connectivity",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pranavvsingh/angular-login-signup"
+  },
+  "license": "MIT",
+  "author": "Pranav Singh",
+  "contributors": [
+    "Pranav Singh"
+  ],
+  "scripts": {
+    "start": "node app.js",
+    "test": "nyc mocha --timeout=10000 --exit",
+    "lint": "eslint \"**/*.js\""
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "errorhandler": "^1.5.1",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "mysql": "^2.18.1",
+    "validator": "^13.5.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^7.17.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-chai-friendly": "^0.6.0",
+    "eslint-plugin-import": "^2.22.1",
+    "mocha": "^8.2.1",
+    "nyc": "^15.1.0",
+    "sinon": "^9.2.3",
+    "supertest": "^6.0.1"
+  },
+  "engines": {
+    "node": ">=10.23.1",
+    "npm": ">=6.14.10"
+  }
+}
